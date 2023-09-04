@@ -1,0 +1,124 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+/* Fontes:
+ 'Passion One', cursive;
+ 'Sriracha', cursive;
+ */
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --cor01: black;
+    --cor02: white;
+    --fonte01: 'Passion One', cursive;
+    --fonte02: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte03: 'Sriracha', cursive;
+
+}
+html,body {
+    min-width: 10vh;
+}
+
+header {
+    background-color: var(--cor01);
+    padding-top: 30px;
+    text-align: center;
+}
+header > h1 {
+    font-family: var(--fonte01);
+    font-variant: small-caps;
+    font-weight: 400;
+    font-size: 6vw;
+    color: var(--cor02);
+}
+main p {
+    font-family: 'Sriracha', cursive;
+    font-size: 50px;
+}
+header > nav > p {
+    font-family: var(--fonte02);
+    color: var(--cor02);
+    padding-bottom: 20px;
+}
+a {
+    font-weight: bolder;
+    text-decoration: none;
+    color: white;
+}
+a:hover {
+    text-decoration: underline;
+
+}
+main {
+    max-width: 1776px;
+    min-width: 88vw; 
+}
+main section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+section > p {
+    padding-bottom: 1em;
+}
+#introducao {
+    background-color: var(--cor02);
+    margin-bottom: 10px;
+}
+main p {
+    text-indent: 1em;
+    line-height: 2em;
+    padding-left: 20px;
+    font-size: 3vw;
+}
+.normal {
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.432);
+    background-size: cover;
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;   
+    width: 98vw;
+
+}
+#imagem01 {
+    background-image: url("../imagens/background001.jpg");
+ 
+
+}
+.pg {
+    background-color: rgba(0, 0, 0, 0.459);
+    color: white;
+    width: 50vw;
+    text-indent: 1em;
+    padding: 9px;
+    margin-left: 30px;
+    text-align: justify;
+    font-size: 4vw;
+}
+#imagem02 {
+   background-image: url("../imagens/background002.jpg");
+ 
+   
+}
+footer p {
+    background-color: var(--cor01);
+    color: var(--cor02);
+    height: 24px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+footer > p > a {
+    color: white;
+}
+footer > p > a:hover {
+    text-decoration: underline;
+}
+abbr {
+    color: white;
+    text-decoration: none;
+}
